@@ -1,0 +1,2 @@
+[0524/155008.466:ERROR:crashpad_client_win.cc(491)] CreateProcess: Access is denied. (0x5)
+[0822/161022.748:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

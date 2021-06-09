@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APITest_SpaceXSuite" verbose="1">
+
+    <test name="APITest_SpaceX" preserve-order="true">
+        <classes>
+            <class name="test.api.useCases.SpaceXSuite">
+                <methods>
+                    <include name="VerifyStatusCode"/>
+                    <include name="VerifyTbdAndNetData"/>
+                    <include name="VerifyDateUnixConversion"/>
+                    <include name="VerifyDatePrecision"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
